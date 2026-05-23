@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingCategoryDef>
+		<defName>AV_EarlyPlaneParts</defName>
+		<label>early plane parts</label>
+		<parent>Manufactured</parent>
+		<iconPath>UI/Categories/AV_EarlyPlaneParts</iconPath>
+		<resourceReadoutRoot>true</resourceReadoutRoot>
+	</ThingCategoryDef>
+	<ThingDef Name="AV_EarlyPlanePartsBase" Abstract="True">
+		<thingClass>ThingWithComps</thingClass>
+		<category>Item</category>
+		<drawerType>MapMeshOnly</drawerType>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<altitudeLayer>Item</altitudeLayer>
+		<stackLimit>10</stackLimit>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+		</comps>
+		<alwaysHaulable>true</alwaysHaulable>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<rotatable>false</rotatable>
+		<pathCost>14</pathCost>
+		<allowedArchonexusCount>-1</allowedArchonexusCount>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MaxHitPoints>70</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<DeteriorationRate>1.0</DeteriorationRate>
+			<Beauty>-4</Beauty>
+		</statBases>
+		<thingCategories>
+			<li>AV_EarlyPlaneParts</li>
+		</thingCategories>
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<effectWorking>Cook</effectWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
+			<workSkill>Crafting</workSkill>
+			<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+			<recipeUsers>
+				<li>CraftingSpot</li>
+				<li>FueledSmithy</li>
+				<li>ElectricSmithy</li>
+			</recipeUsers>
+			<researchPrerequisite>AV_EarlyFlight</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>3</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+	</ThingDef>
+	<ThingDef ParentName="AV_EarlyPlanePartsBase">
+		<defName>AV_EarlyPlaneLandingGear</defName>
+		<label>early plane landing gear</label>
+		<description>A lightweight landing gear assembly consisting of spoked wheels, wooden struts, and simple suspension components. Designed for fragile early aircraft operating from rough fields and dirt runways.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AV_EarlyPlaneLandingGear</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>85</MarketValue>
+			<Mass>8</Mass>
+			<WorkToMake>150</WorkToMake>
+		</statBases>
+		<costList>
+			<Steel>20</Steel>
+			<WoodLog>20</WoodLog>
+		</costList>
+		<tradeTags>
+			<li>VVE_PlanePartBasic</li>
+		</tradeTags>
+	</ThingDef>
+	<ThingDef ParentName="AV_EarlyPlanePartsBase">
+		<defName>AV_EarlyPlaneEngine</defName>
+		<label>early plane engine</label>
+		<description>A primitive aero engine paired with a wooden propeller assembly. Lightweight but temperamental, these engines produce barely enough power to keep an aircraft airborne and require constant maintenance to remain operational.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AV_EarlyPlaneEngine</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>375</MarketValue>
+			<Mass>15</Mass>
+			<WorkToMake>5500</WorkToMake>
+		</statBases>
+		<costList>
+			<Steel>35</Steel>
+			<WoodLog>15</WoodLog>
+			<Silver>4</Silver>
+			<ComponentIndustrial>6</ComponentIndustrial>
+		</costList>
+		<tradeTags>
+			<li>VVE_PlanePartBasic</li>
+		</tradeTags>
+	</ThingDef>
+	<ThingDef ParentName="AV_EarlyPlanePartsBase">
+		<defName>AV_EarlyPlaneFuselage</defName>
+		<label>early plane fuselage</label>
+		<description>Lightweight airframe sections made from wood, stretched fabric, and thin metal reinforcement. Though fragile by modern standards, these panels provide enough structural integrity for primitive aircraft designs.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AV_EarlyPlaneFuselage</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>110</MarketValue>
+			<Mass>12</Mass>
+			<WorkToMake>400</WorkToMake>
+		</statBases>
+		<costList>
+			<WoodLog>35</WoodLog>
+			<Cloth>25</Cloth>
+			<Steel>10</Steel>
+		</costList>
+		<tradeTags>
+			<li>VVE_PlanePartBasic</li>
+		</tradeTags>
+	</ThingDef>
+</Defs>

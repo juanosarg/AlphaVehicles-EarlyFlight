@@ -1,0 +1,61 @@
+<ModMetaData>
+	<name>Alpha Vehicles - Early Flight</name>
+	<author>Sarg</author>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<modIconPath IgnoreIfNoMatchingField="True">UI/AlphaVehiclesLogo</modIconPath>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+		<li>
+			<packageId>SmashPhil.VehicleFramework</packageId>
+			<displayName>Vehicle Framework</displayName>
+			<downloadUrl>https://github.com/SmashPhil/Vehicles/releases/latest</downloadUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3014915404</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<packageId>sarg.alphavehiclesearlyflight</packageId>
+	<description>Adds 8 planes from 1903 to 1920.
+&lt;size=24&gt;Issues&lt;/size&gt;
+
+No issues tracked
+
+&lt;size=24&gt;Plans for the future&lt;/size&gt;
+
+More vehicles? Maybe!
+
+&lt;size=24&gt;Credit&lt;/size&gt;
+
+https://sketchfab.com/3d-models/1903-wright-flyer-c91467735c6743af872e65107a79beda
+https://sketchfab.com/3d-models/sopwith-camel-70ad9a87976e4d4eaeedaa4cd78dc94b
+https://sketchfab.com/3d-models/weiss-6d8ab3cc743b492e8d9fbe88dd7886cd
+https://sketchfab.com/3d-models/handley-page-type-o-779b944693164deb9ad2e14426290027
+https://sketchfab.com/3d-models/biplane-avro-504-d420696b807442d986a64c652cc4de76
+https://sketchfab.com/3d-models/bleriot-xi-file-9bc9803d7f6b410ea1277595db6d53c8
+https://sketchfab.com/3d-models/cierva-c30-6b1714f46f21467492ad8a295123abc0
+https://sketchfab.com/3d-models/albatros-bii-325c804ba7a34740987d111ebd90fb54
+
+https://www.soundsofchanges.eu/sound/ford-model-t-tin-lizzy-starting-the-engine-2/#
+
+&lt;size=24&gt;Compatibility&lt;/size&gt;
+
+Should be compatible with any vehicle mods out there
+
+&lt;size=24&gt;Changelog&lt;/size&gt;
+
+Full changelog on GitHub
+
+
+		</description>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>brrainz.harmony</li>
+		<li>SmashPhil.VehicleFramework</li>
+		<li>OskarPotocki.VanillaVehiclesExpanded</li>
+	</loadAfter>
+</ModMetaData>
