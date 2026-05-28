@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
+		<defName>AV_HandleyPage_Blueprint</defName>
+		<label>Handley Page Type O</label>
+		<description>A large twin-engine biplane bomber designed for long-range military operations during the First World War. Though slow and cumbersome, it can carry heavy payloads over great distances.\n\nBeing a flying vehicle, it is extremely obvious when on the move.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<designationCategory>VF_Vehicles</designationCategory>
+		<graphicData>
+			<texPath>Things/Vehicles/Air/Tier1/AV_HandleyPage/AV_HandleyPage</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>20</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>3000</MaxHitPoints>
+			<WorkToBuild>8500</WorkToBuild>
+			<Flammability>0.05</Flammability>
+		</statBases>
+		<size>(10,20)</size>
+		<researchPrerequisites>
+			<li>AV_EarlyFlight</li>
+		</researchPrerequisites>
+		<costList>
+			<AV_EarlyPlaneEngine>2</AV_EarlyPlaneEngine>
+			<AV_EarlyPlaneLandingGear>4</AV_EarlyPlaneLandingGear>
+			<AV_EarlyPlaneFuselage>10</AV_EarlyPlaneFuselage>
+		</costList>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<thingToSpawn>AV_HandleyPage</thingToSpawn>
+		<constructionSkillPrerequisite>7</constructionSkillPrerequisite>
+	</Vehicles.VehicleBuildDef>
+</Defs>

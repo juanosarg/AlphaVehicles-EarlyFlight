@@ -79,6 +79,118 @@
 						</li>
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/Vehicles.VehicleDef[defName="AV_HandleyPage"]/comps</xpath>
+					<value>
+						<li Class="VehicleRaid.CompProperties_VehicleHover">
+							<flightType>Airplane</flightType>
+							<maxTicks>600</maxTicks>
+							<maxTicksVertical>600</maxTicksVertical>
+							<maxTicksPropeller>600</maxTicksPropeller>
+							<hoverAltitude>6</hoverAltitude>
+							<hoverMoveSpeed>6</hoverMoveSpeed>
+							<hoverRotationSpeed>15</hoverRotationSpeed>
+							<hoverShadowOffset>6</hoverShadowOffset>
+							<shadowAlphaPropellerCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 0)</li>
+									<li>(0.2, 0.4)</li>
+									<li>(0.5, 0.6)</li>
+									<li>(1, 0.6)</li>
+								</points>
+							</shadowAlphaPropellerCurve>
+							<xPositionCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 0)</li>
+									<li>(0.4, 6)</li>
+									<li>(0.7, 16)</li>
+									<li>(1, 30)</li>
+								</points>
+							</xPositionCurve>
+							<zPositionCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 0)</li>
+									<li>(0.6, 0)</li>
+									<li>(0.8, 0.2)</li>
+									<li>(1, 0.5)</li>
+								</points>
+							</zPositionCurve>
+							<rotationCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 0)</li>
+									<li>(0.7, 0)</li>
+									<li>(0.9, -15)</li>
+									<li>(1, 0)</li>
+								</points>
+							</rotationCurve>
+							<runwayClearCells>60</runwayClearCells>
+							<landingMaxTicks>1000</landingMaxTicks>
+							<landingForwardCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 30)</li>
+									<li>(0.4, 20)</li>
+									<li>(0.7, 8)</li>
+									<li>(1, 0)</li>
+								</points>
+							</landingForwardCurve>
+							<landingAltitudeCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 0.5)</li>
+									<li>(0.3, 0.2)</li>
+									<li>(0.4, 0)</li>
+									<li>(1, 0)</li>
+								</points>
+							</landingAltitudeCurve>
+							<landingRotationCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 0)</li>
+									<li>(0.2, -10)</li>
+									<li>(0.4, 0)</li>
+									<li>(1, 0)</li>
+								</points>
+							</landingRotationCurve>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/Vehicles.VehicleDef[defName="AV_HandleyPage"]/comps</xpath>
+					<value>
+						<li Class="Vehicles.CompProperties_VehicleTurrets">
+							<turrets>
+								<li>
+									<turretDef>AV_HandleyPage_MainTurret</turretDef>
+									<gizmoLabel>Frag bomb</gizmoLabel>
+									<key>fragbomb1</key>
+									<defaultAngleRotated>180</defaultAngleRotated>
+									<angleRestricted>(175, 195)</angleRestricted>
+								</li>
+							</turrets>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/Vehicles.VehicleDef[defName="AV_HandleyPage"]/properties/roles/li[key="pilot"]</xpath>
+					<value>
+						<li>
+							<key>pilot</key>
+							<label>Pilot</label>
+							<slots>1</slots>
+							<slotsToOperate>1</slotsToOperate>
+							<turretIds>
+								<li>fragbomb1</li>
+							</turretIds>
+							<handlingTypes>
+								<li>Movement</li>
+								<li>Turret</li>
+							</handlingTypes>
+							<hitbox>
+								<cells>
+									<li>(0, 2)</li>
+								</cells>
+							</hitbox>
+						</li>
+					</value>
+				</li>
 			</operations>
 		</match>
 	</Operation>
