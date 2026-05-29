@@ -191,6 +191,394 @@
 						</li>
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/Vehicles.VehicleDef[defName="AV_AlbatrossBII"]/comps</xpath>
+					<value>
+						<li Class="VehicleRaid.CompProperties_VehicleHover">
+							<flightType>Airplane</flightType>
+							<maxTicks>300</maxTicks>
+							<maxTicksVertical>300</maxTicksVertical>
+							<maxTicksPropeller>300</maxTicksPropeller>
+							<hoverAltitude>0.5</hoverAltitude>
+							<hoverMoveSpeed>10</hoverMoveSpeed>
+							<hoverRotationSpeed>40</hoverRotationSpeed>
+							<hoverShadowOffset>1.5</hoverShadowOffset>
+							<shadowAlphaPropellerCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 0)</li>
+									<li>(0.2, 0.4)</li>
+									<li>(0.5, 0.6)</li>
+									<li>(1, 0.6)</li>
+								</points>
+							</shadowAlphaPropellerCurve>
+							<xPositionCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 0)</li>
+									<li>(0.4, 6)</li>
+									<li>(0.7, 16)</li>
+									<li>(1, 30)</li>
+								</points>
+							</xPositionCurve>
+							<zPositionCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 0)</li>
+									<li>(0.6, 0)</li>
+									<li>(0.8, 0.2)</li>
+									<li>(1, 0.5)</li>
+								</points>
+							</zPositionCurve>
+							<rotationCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 0)</li>
+									<li>(0.7, 0)</li>
+									<li>(0.9, -15)</li>
+									<li>(1, 0)</li>
+								</points>
+							</rotationCurve>
+							<runwayClearCells>30</runwayClearCells>
+							<landingMaxTicks>600</landingMaxTicks>
+							<landingForwardCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 30)</li>
+									<li>(0.4, 20)</li>
+									<li>(0.7, 8)</li>
+									<li>(1, 0)</li>
+								</points>
+							</landingForwardCurve>
+							<landingAltitudeCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 0.5)</li>
+									<li>(0.3, 0.2)</li>
+									<li>(0.4, 0)</li>
+									<li>(1, 0)</li>
+								</points>
+							</landingAltitudeCurve>
+							<landingRotationCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 0)</li>
+									<li>(0.2, -10)</li>
+									<li>(0.4, 0)</li>
+									<li>(1, 0)</li>
+								</points>
+							</landingRotationCurve>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/Vehicles.VehicleDef[defName="AV_Avro50Plane"]/comps</xpath>
+					<value>
+						<li Class="VehicleRaid.CompProperties_VehicleHover">
+							<flightType>Airplane</flightType>
+							<maxTicks>300</maxTicks>
+							<maxTicksVertical>300</maxTicksVertical>
+							<maxTicksPropeller>300</maxTicksPropeller>
+							<hoverAltitude>0.5</hoverAltitude>
+							<hoverMoveSpeed>8</hoverMoveSpeed>
+							<hoverRotationSpeed>30</hoverRotationSpeed>
+							<hoverShadowOffset>1.5</hoverShadowOffset>
+							<shadowAlphaPropellerCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 0)</li>
+									<li>(0.2, 0.4)</li>
+									<li>(0.5, 0.6)</li>
+									<li>(1, 0.6)</li>
+								</points>
+							</shadowAlphaPropellerCurve>
+							<xPositionCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 0)</li>
+									<li>(0.4, 6)</li>
+									<li>(0.7, 16)</li>
+									<li>(1, 30)</li>
+								</points>
+							</xPositionCurve>
+							<zPositionCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 0)</li>
+									<li>(0.6, 0)</li>
+									<li>(0.8, 0.2)</li>
+									<li>(1, 0.5)</li>
+								</points>
+							</zPositionCurve>
+							<rotationCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 0)</li>
+									<li>(0.7, 0)</li>
+									<li>(0.9, -15)</li>
+									<li>(1, 0)</li>
+								</points>
+							</rotationCurve>
+							<runwayClearCells>30</runwayClearCells>
+							<landingMaxTicks>600</landingMaxTicks>
+							<landingForwardCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 30)</li>
+									<li>(0.4, 20)</li>
+									<li>(0.7, 8)</li>
+									<li>(1, 0)</li>
+								</points>
+							</landingForwardCurve>
+							<landingAltitudeCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 0.5)</li>
+									<li>(0.3, 0.2)</li>
+									<li>(0.4, 0)</li>
+									<li>(1, 0)</li>
+								</points>
+							</landingAltitudeCurve>
+							<landingRotationCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 0)</li>
+									<li>(0.2, -10)</li>
+									<li>(0.4, 0)</li>
+									<li>(1, 0)</li>
+								</points>
+							</landingRotationCurve>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/Vehicles.VehicleDef[defName="AV_SopwithCamel"]/comps</xpath>
+					<value>
+						<li Class="VehicleRaid.CompProperties_VehicleHover">
+							<flightType>Airplane</flightType>
+							<maxTicks>300</maxTicks>
+							<maxTicksVertical>300</maxTicksVertical>
+							<maxTicksPropeller>300</maxTicksPropeller>
+							<hoverAltitude>0.5</hoverAltitude>
+							<hoverMoveSpeed>10</hoverMoveSpeed>
+							<hoverRotationSpeed>35</hoverRotationSpeed>
+							<hoverShadowOffset>1.5</hoverShadowOffset>
+							<shadowAlphaPropellerCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 0)</li>
+									<li>(0.2, 0.4)</li>
+									<li>(0.5, 0.6)</li>
+									<li>(1, 0.6)</li>
+								</points>
+							</shadowAlphaPropellerCurve>
+							<xPositionCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 0)</li>
+									<li>(0.4, 6)</li>
+									<li>(0.7, 16)</li>
+									<li>(1, 30)</li>
+								</points>
+							</xPositionCurve>
+							<zPositionCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 0)</li>
+									<li>(0.6, 0)</li>
+									<li>(0.8, 0.2)</li>
+									<li>(1, 0.5)</li>
+								</points>
+							</zPositionCurve>
+							<rotationCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 0)</li>
+									<li>(0.7, 0)</li>
+									<li>(0.9, -15)</li>
+									<li>(1, 0)</li>
+								</points>
+							</rotationCurve>
+							<runwayClearCells>30</runwayClearCells>
+							<landingMaxTicks>600</landingMaxTicks>
+							<landingForwardCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 30)</li>
+									<li>(0.4, 20)</li>
+									<li>(0.7, 8)</li>
+									<li>(1, 0)</li>
+								</points>
+							</landingForwardCurve>
+							<landingAltitudeCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 0.5)</li>
+									<li>(0.3, 0.2)</li>
+									<li>(0.4, 0)</li>
+									<li>(1, 0)</li>
+								</points>
+							</landingAltitudeCurve>
+							<landingRotationCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 0)</li>
+									<li>(0.2, -10)</li>
+									<li>(0.4, 0)</li>
+									<li>(1, 0)</li>
+								</points>
+							</landingRotationCurve>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/Vehicles.VehicleDef[defName="AV_FokkerTriplane"]/comps</xpath>
+					<value>
+						<li Class="VehicleRaid.CompProperties_VehicleHover">
+							<flightType>Airplane</flightType>
+							<maxTicks>300</maxTicks>
+							<maxTicksVertical>300</maxTicksVertical>
+							<maxTicksPropeller>300</maxTicksPropeller>
+							<hoverAltitude>0.5</hoverAltitude>
+							<hoverMoveSpeed>10</hoverMoveSpeed>
+							<hoverRotationSpeed>60</hoverRotationSpeed>
+							<hoverShadowOffset>1.5</hoverShadowOffset>
+							<shadowAlphaPropellerCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 0)</li>
+									<li>(0.2, 0.4)</li>
+									<li>(0.5, 0.6)</li>
+									<li>(1, 0.6)</li>
+								</points>
+							</shadowAlphaPropellerCurve>
+							<xPositionCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 0)</li>
+									<li>(0.4, 6)</li>
+									<li>(0.7, 16)</li>
+									<li>(1, 30)</li>
+								</points>
+							</xPositionCurve>
+							<zPositionCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 0)</li>
+									<li>(0.6, 0)</li>
+									<li>(0.8, 0.2)</li>
+									<li>(1, 0.5)</li>
+								</points>
+							</zPositionCurve>
+							<rotationCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 0)</li>
+									<li>(0.7, 0)</li>
+									<li>(0.9, -15)</li>
+									<li>(1, 0)</li>
+								</points>
+							</rotationCurve>
+							<runwayClearCells>30</runwayClearCells>
+							<landingMaxTicks>600</landingMaxTicks>
+							<landingForwardCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 30)</li>
+									<li>(0.4, 20)</li>
+									<li>(0.7, 8)</li>
+									<li>(1, 0)</li>
+								</points>
+							</landingForwardCurve>
+							<landingAltitudeCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 0.5)</li>
+									<li>(0.3, 0.2)</li>
+									<li>(0.4, 0)</li>
+									<li>(1, 0)</li>
+								</points>
+							</landingAltitudeCurve>
+							<landingRotationCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 0)</li>
+									<li>(0.2, -10)</li>
+									<li>(0.4, 0)</li>
+									<li>(1, 0)</li>
+								</points>
+							</landingRotationCurve>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/Vehicles.VehicleDef[defName="AV_DelaCierva"]/vehicleStats/MoveSpeed</xpath>
+					<value>
+						<MoveSpeed>2.5</MoveSpeed>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/Vehicles.VehicleDef[defName="AV_DelaCierva"]/comps</xpath>
+					<value>
+						<li Class="VehicleRaid.CompProperties_VehicleHover">
+							<maxTicks>600</maxTicks>
+							<hoverMoveSpeed>3.5</hoverMoveSpeed>
+							<maxTicksVertical>400</maxTicksVertical>
+							<maxTicksPropeller>800</maxTicksPropeller>
+							<hoverAltitude>4</hoverAltitude>
+							<hoverShadowOffset>1.5</hoverShadowOffset>
+							<hoverBobAmount>0.1</hoverBobAmount>
+							<hoverBobSpeed>2.0</hoverBobSpeed>
+							<rotationCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 0)</li>
+									<li>(0.3, 2)</li>
+									<li>(0.5, 3)</li>
+									<li>(0.7, 2)</li>
+									<li>(1, 0)</li>
+								</points>
+							</rotationCurve>
+							<rotationVerticalCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 0)</li>
+									<li>(0.2, 3)</li>
+									<li>(0.4, 5)</li>
+									<li>(0.6, 4)</li>
+									<li>(0.8, 2)</li>
+									<li>(1, 0)</li>
+								</points>
+							</rotationVerticalCurve>
+							<angularVelocityPropeller Class="SmashTools.BezierCurve">
+								<points>
+									<li>0, 0</li>
+									<li>(0.3, 0)</li>
+									<li>(0.5, 30)</li>
+									<li>(1, 59)</li>
+								</points>
+							</angularVelocityPropeller>
+							<zPositionVerticalCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 0)</li>
+									<li>(0.15, 0)</li>
+									<li>(0.5, 3)</li>
+									<li>(0.85, 4)</li>
+									<li>(1, 4)</li>
+								</points>
+							</zPositionVerticalCurve>
+							<shadowAlphaPropellerCurve Class="SmashTools.BezierCurve">
+								<points>
+									<li>(0, 1)</li>
+									<li>(0.3, 0.8)</li>
+									<li>(0.7, 0.5)</li>
+									<li>(1, 0.3)</li>
+								</points>
+							</shadowAlphaPropellerCurve>
+							<fleckDataVertical>
+								<def>DustPuff</def>
+								<airTime>
+									<points>
+										<li>(1, 0.5)</li>
+									</points>
+								</airTime>
+								<frequency Class="SmashTools.BezierCurve">
+									<points>
+										<li>(0, 160)</li>
+										<li>(0.25, 160)</li>
+										<li>(0.5, 160)</li>
+										<li>(0.75, 130)</li>
+										<li>(0.75, 0)</li>
+									</points>
+								</frequency>
+								<size Class="SmashTools.BezierCurve">
+									<points>
+										<li>(0, 2.5)</li>
+										<li>(0.25, 1.64)</li>
+										<li>(0.75, 1.56)</li>
+										<li>(1, 1)</li>
+									</points>
+								</size>
+								<speed>
+									<points>
+										<li>(0, 6)</li>
+										<li>(1, 3)</li>
+									</points>
+								</speed>
+							</fleckDataVertical>
+						</li>
+					</value>
+				</li>
 			</operations>
 		</match>
 	</Operation>

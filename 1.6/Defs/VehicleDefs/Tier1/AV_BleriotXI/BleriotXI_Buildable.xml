@@ -3,7 +3,7 @@
 	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
 		<defName>AV_BleriotXI_Blueprint</defName>
 		<label>Blériot XI</label>
-		<description>A lightweight wood-and-fabric monoplane, famous for completing the first flight across the English Channel in 1909, it helped prove that aircraft could become practical vehicles rather than experimental curiosities.\n\nBeing a flying vehicle, it is extremely obvious when on the move.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<description>A lightweight wood-and-fabric monoplane, famous for completing the first flight across the English Channel in 1909, it helped prove that aircraft could become practical vehicles rather than experimental curiosities.\n\nBeing a flying vehicle, it is extremely obvious when on the move.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Pilot x1\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 		<designationCategory>VF_Vehicles</designationCategory>
 		<graphicData>
 			<texPath>Things/Vehicles/Air/Tier1/AV_BleriotXI/AV_BleriotXI</texPath>

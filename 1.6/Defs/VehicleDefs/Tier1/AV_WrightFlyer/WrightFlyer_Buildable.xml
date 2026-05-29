@@ -3,7 +3,7 @@
 	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
 		<defName>AV_WrightFlyer_Blueprint</defName>
 		<label>Wright Flyer</label>
-		<description>The first successful powered aircraft, a fragile wood-and-fabric biplane powered by a small propeller engine.\n\nBeing a flying vehicle, it is extremely obvious when on the move.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<description>The first successful powered aircraft, a fragile wood-and-fabric biplane powered by a small propeller engine.\n\nBeing a flying vehicle, it is extremely obvious when on the move.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Pilot x1\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 		<designationCategory>VF_Vehicles</designationCategory>
 		<graphicData>
 			<texPath>Things/Vehicles/Air/Tier1/AV_WrightFlyer/AV_WrightFlyer</texPath>

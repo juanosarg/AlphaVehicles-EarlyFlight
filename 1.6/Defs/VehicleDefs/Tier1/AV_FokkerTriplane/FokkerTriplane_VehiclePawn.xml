@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<Vehicles.VehicleDef ParentName="BaseVehiclePawn">
-		<defName>AV_WrightFlyer</defName>
-		<label>Wright Flyer</label>
-		<description>The first successful powered aircraft, a fragile wood-and-fabric biplane powered by a small propeller engine.\n\nBeing a flying vehicle, it is extremely obvious when on the move.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Pilot x1\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<defName>AV_FokkerTriplane</defName>
+		<label>Fokker Dr.I</label>
+		<description>A compact triplane fighter renowned for its exceptional agility and rapid climbing ability. Though slower than many contemporary aircraft, its maneuverability made it a feared dogfighter in the hands of skilled pilots.\n\nBeing a flying vehicle, it is extremely obvious when on the move.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Pilot x1\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 		<graphicData>
-			<texPath>Things/Vehicles/Air/Tier1/AV_WrightFlyer/AV_WrightFlyer</texPath>
+			<texPath>Things/Vehicles/Air/Tier1/AV_FokkerTriplane/AV_FokkerTriplane</texPath>
 			<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
 			<shaderType>CutoutComplexPattern</shaderType>
 			<drawSize>7</drawSize>
-			<color>(80, 85, 81)</color>
-			<colorTwo>(80, 85, 81)</colorTwo>
-			<colorThree>(80, 85, 81)</colorThree>
+			<color>(252, 61, 61)</color>
+			<colorTwo>(252, 61, 61)</colorTwo>
+			<colorThree>(252, 61, 61)</colorThree>
 		</graphicData>
 		<fillPercent>0.8</fillPercent>
-		<buildDef>AV_WrightFlyer_Blueprint</buildDef>
-		<size>(3,6)</size>
+		<buildDef>AV_FokkerTriplane_Blueprint</buildDef>
+		<size>(4,7)</size>
 		<canCaravan LockSetting="True">false</canCaravan>
 		<vehicleCategory>Transport</vehicleCategory>
 		<techLevel>Industrial</techLevel>
 		<vehicleType>Air</vehicleType>
 		<statBases>
-			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
-			<ArmorRating_Heat>0</ArmorRating_Heat>
+			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.6</ArmorRating_Heat>
 			<Flammability>1</Flammability>
-			<MarketValue>850</MarketValue>
+			<MarketValue>2250</MarketValue>
 		</statBases>
 		<vehicleStats>
-			<Mass>85</Mass>
+			<Mass>175</Mass>
 			<MoveSpeed>1</MoveSpeed>
-			<CargoCapacity>120</CargoCapacity>
+			<CargoCapacity>215</CargoCapacity>
 			<RepairRate>0.5</RepairRate>
-			<FlightSpeed>10</FlightSpeed>
+			<FlightSpeed>15</FlightSpeed>
 		</vehicleStats>
 		<soundSustainersOnEvent>
 			<li>
@@ -57,13 +57,13 @@
 			</li>
 		</soundSustainersOnEvent>
 		<race>
-			<baseBodySize>3</baseBodySize>
+			<baseBodySize>4</baseBodySize>
 		</race>
 		<properties>
 			<defaultImpassable>
 				<li>Biomes</li>
 			</defaultImpassable>
-			<visibilityWeight>4</visibilityWeight>
+			<visibilityWeight>6</visibilityWeight>
 			<diagonalRotation>false</diagonalRotation>
 			<vehicleJobLimitations>
 				<li>(RepairVehicle, 1)</li>
@@ -76,13 +76,18 @@
 					<slotsToOperate>1</slotsToOperate>
 					<handlingTypes>
 						<li>Movement</li>
+						<li>Turret</li>
 					</handlingTypes>
+					<turretIds>
+						<li>militaryTurret1</li>
+					</turretIds>
 					<hitbox>
 						<cells>
-							<li>(0, 2)</li>
+							<li>(1, 1)</li>
 						</cells>
 					</hitbox>
 				</li>
+				
 			</roles>
 		</properties>
 		<components>
@@ -103,8 +108,8 @@
 				</reactors>
 				<hitbox>
 					<cells>
-						<li>(0, -1)</li>
-						
+						<li>(2, 3)</li>
+						<li>(1, 3)</li>
 					</cells>
 				</hitbox>
 				<categories>
@@ -126,7 +131,7 @@
 				<hitbox>
 					<fallthrough>false</fallthrough>
 					<cells>
-						<li>(-1, 1)</li>
+						<li>(0, 2)</li>
 					</cells>
 				</hitbox>
 				<categories>
@@ -148,7 +153,7 @@
 				<hitbox>
 					<fallthrough>false</fallthrough>
 					<cells>
-						<li>(1, 1)</li>
+						<li>(2, 2)</li>
 					</cells>
 				</hitbox>
 				<categories>
@@ -162,7 +167,7 @@
 				<depth>External</depth>
 				<hitbox>
 					<cells>
-						<li>(-1, 0)</li>
+						<li>(2, -3)</li>
 					</cells>
 				</hitbox>
 				<categories>
@@ -176,7 +181,7 @@
 				<depth>External</depth>
 				<hitbox>
 					<cells>
-						<li>(1, 0)</li>
+						<li>(0, -3)</li>
 					</cells>
 				</hitbox>
 				<categories>
@@ -190,7 +195,7 @@
 				<depth>Internal</depth>
 				<hitbox>
 					<cells>
-						<li>(0, 1)</li>
+						<li>(1, 1)</li>
 					</cells>
 				</hitbox>
 				<categories>
@@ -205,7 +210,7 @@
 				<depth>External</depth>
 				<hitbox>
 					<cells>
-						<li>(0, -2)</li>
+						<li>(1, -3)</li>
 					</cells>
 				</hitbox>
 				<categories>
@@ -215,23 +220,29 @@
 			<li>
 				<key>Fuselage</key>
 				<label>Fuselage</label>
-				<health>200</health>
+				<health>350</health>
 				<depth>External</depth>
 				<hitbox>
 					<cells>
-						
-						<li>(0, 2)</li>
-						<li>(0, 1)</li>
-						<li>(0, 0)</li>
-						<li>(0, -1)</li>
-						
+						<li>(1, 3)</li>
+						<li>(1, 2)</li>
+						<li>(1, 1)</li>
+						<li>(1, 0)</li>
+						<li>(1, -1)</li>
+						<li>(1, -2)</li>
+						<li>(2, 3)</li>
+						<li>(2, 2)</li>
+						<li>(2, 1)</li>
+						<li>(2, 0)</li>
+						<li>(2, -1)</li>
+						<li>(2, -2)</li>
 					</cells>
 				</hitbox>
 			</li>
 			<li>
 				<key>Chemtank</key>
 				<label>Chemtank</label>
-				<health>50</health>
+				<health>75</health>
 				<depth>Internal</depth>
 				<reactors>
 					<li Class="Vehicles.Reactor_FuelLeak"/>
@@ -245,18 +256,18 @@
 				</reactors>
 				<hitbox>
 					<cells>
-						<li>(0, -1)</li>
+						<li>(1, 1)</li>
 					</cells>
 				</hitbox>
 			</li>
 			<li>
 				<key>LeftWing</key>
 				<label>Left Wing</label>
-				<health>100</health>
+				<health>150</health>
 				<depth>External</depth>
 				<hitbox>
 					<cells>
-						<li>(-1, 0)</li>
+						<li>(-1, 2)</li>
 						<li>(-1, 1)</li>
 					</cells>
 				</hitbox>
@@ -267,11 +278,11 @@
 			<li>
 				<key>RightWing</key>
 				<label>Right Wing</label>
-				<health>100</health>
+				<health>150</health>
 				<depth>External</depth>
 				<hitbox>
 					<cells>
-						<li>(1, 0)</li>
+						<li>(1, 2)</li>
 						<li>(1, 1)</li>
 					</cells>
 				</hitbox>
@@ -288,6 +299,17 @@
 			</li>
 		</components>
 		<comps>
+			<li Class="Vehicles.CompProperties_VehicleTurrets">
+				<turrets>
+					<li>
+						<turretDef>AV_FokkerTriplane_MainTurret</turretDef>
+						<gizmoLabel>Heavy machine guns</gizmoLabel>
+						<key>militaryTurret1</key>
+						<defaultAngleRotated>360</defaultAngleRotated>
+						<angleRestricted>(340, 20)</angleRestricted>
+					</li>
+				</turrets>
+			</li>
 			<li Class="Vehicles.CompProperties_FueledTravel">
 				<fuelType>Chemfuel</fuelType>
 				<leakDef>Filth_Fuel</leakDef>
@@ -295,7 +317,7 @@
 				<fuelCapacity>150</fuelCapacity>
 			</li>
 			<li Class="Vehicles.CompProperties_VehicleLauncher">
-				<fuelConsumptionWorldMultiplier>50</fuelConsumptionWorldMultiplier>
+				<fuelConsumptionWorldMultiplier>40</fuelConsumptionWorldMultiplier>
 				<launchProtocol Class="Vehicles.DirectionalTakeoff">
 					<launchProperties>
 						<horizontal>

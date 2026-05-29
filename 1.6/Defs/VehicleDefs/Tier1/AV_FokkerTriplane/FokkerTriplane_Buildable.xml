@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
+		<defName>AV_FokkerTriplane_Blueprint</defName>
+		<label>Fokker Dr.I</label>
+		<description>A compact triplane fighter renowned for its exceptional agility and rapid climbing ability. Though slower than many contemporary aircraft, its maneuverability made it a feared dogfighter in the hands of skilled pilots.\n\nBeing a flying vehicle, it is extremely obvious when on the move.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Pilot x1\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<designationCategory>VF_Vehicles</designationCategory>
+		<graphicData>
+			<texPath>Things/Vehicles/Air/Tier1/AV_FokkerTriplane/AV_FokkerTriplane</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>7</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>620</MaxHitPoints>
+			<WorkToBuild>9500</WorkToBuild>
+			<Flammability>0.05</Flammability>
+		</statBases>
+		<size>(4,7)</size>
+		<researchPrerequisites>
+			<li>AV_EarlyFlight</li>
+		</researchPrerequisites>
+		<costList>
+			<AV_EarlyPlaneEngine>1</AV_EarlyPlaneEngine>
+			<AV_EarlyPlaneLandingGear>2</AV_EarlyPlaneLandingGear>
+			<AV_EarlyPlaneFuselage>8</AV_EarlyPlaneFuselage>
+		</costList>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<thingToSpawn>AV_FokkerTriplane</thingToSpawn>
+		<constructionSkillPrerequisite>7</constructionSkillPrerequisite>
+	</Vehicles.VehicleBuildDef>
+</Defs>

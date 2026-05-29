@@ -3,7 +3,7 @@
 	<Vehicles.VehicleDef ParentName="BaseVehiclePawn">
 		<defName>AV_HandleyPage</defName>
 		<label>Handley Page Type O</label>
-		<description>A large twin-engine biplane bomber designed for long-range military operations during the First World War. Though slow and cumbersome, it can carry heavy payloads over great distances.\n\nBeing a flying vehicle, it is extremely obvious when on the move.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<description>A large twin-engine biplane bomber designed for long-range military operations during the First World War. Though slow and cumbersome, it can carry heavy payloads over great distances.\n\nBeing a flying vehicle, it is extremely obvious when on the move.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Pilot x1\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 		<graphicData>
 			<texPath>Things/Vehicles/Air/Tier1/AV_HandleyPage/AV_HandleyPage</texPath>
 			<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
