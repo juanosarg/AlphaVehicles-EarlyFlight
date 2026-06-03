@@ -282,8 +282,8 @@
 				<depth>External</depth>
 				<hitbox>
 					<cells>
-						<li>(1, 2)</li>
-						<li>(1, 1)</li>
+						<li>(-1, 2)</li>
+						<li>(-1, 1)</li>
 					</cells>
 				</hitbox>
 				<categories>

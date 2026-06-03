@@ -32,12 +32,14 @@
 			<li>AV_EarlyFlight</li>
 			<li>Smithing</li>
 		</prerequisites>
-		<rulesStrings>
-			<li>subject->biplane theory</li>
-			<li>subject_story->developed reinforced wing bracing systems for early military aircraft</li>
-			<li>subject_story->studied aerodynamic instability in lightweight monoplanes</li>
-			<li>subject_story->contributed to early airframe stress analysis methods</li>
-			<li>subject_gerund->designing biplane wing structures</li>
-		</rulesStrings>
+		<generalRules>
+			<rulesStrings>
+				<li>subject->biplane theory</li>
+				<li>subject_story->developed reinforced wing bracing systems for early military aircraft</li>
+				<li>subject_story->studied aerodynamic instability in lightweight monoplanes</li>
+				<li>subject_story->contributed to early airframe stress analysis methods</li>
+				<li>subject_gerund->designing biplane wing structures</li>
+			</rulesStrings>
+		</generalRules>
 	</ResearchProjectDef>
 </Defs>
