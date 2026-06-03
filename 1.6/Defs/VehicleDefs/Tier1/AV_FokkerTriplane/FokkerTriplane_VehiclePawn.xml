@@ -30,7 +30,7 @@
 		<vehicleStats>
 			<Mass>175</Mass>
 			<MoveSpeed>1</MoveSpeed>
-			<CargoCapacity>215</CargoCapacity>
+			<CargoCapacity>200</CargoCapacity>
 			<RepairRate>0.5</RepairRate>
 			<FlightSpeed>15</FlightSpeed>
 		</vehicleStats>
@@ -94,7 +94,7 @@
 			<li>
 				<key>Engine</key>
 				<label>Engine</label>
-				<health>50</health>
+				<health>39</health>
 				<priorityStatEfficiency>true</priorityStatEfficiency>
 				<depth>External</depth>
 				<reactors>
@@ -108,8 +108,8 @@
 				</reactors>
 				<hitbox>
 					<cells>
-						<li>(2, 3)</li>
-						<li>(1, 3)</li>
+						<li>(0, -1)</li>
+						<li>(1, -1)</li>
 					</cells>
 				</hitbox>
 				<categories>
@@ -119,7 +119,7 @@
 			<li>
 				<key>LeftLandingWheel</key>
 				<label>Left Landing Wheel</label>
-				<health>30</health>
+				<health>23</health>
 				<depth>External</depth>
 				<armor>
 					<ArmorRating_Blunt>0</ArmorRating_Blunt>
@@ -131,7 +131,7 @@
 				<hitbox>
 					<fallthrough>false</fallthrough>
 					<cells>
-						<li>(0, 2)</li>
+						<li>(-1, 2)</li>
 					</cells>
 				</hitbox>
 				<categories>
@@ -141,7 +141,7 @@
 			<li>
 				<key>RightLandingWheel</key>
 				<label>Right Landing Wheel</label>
-				<health>30</health>
+				<health>23</health>
 				<depth>External</depth>
 				<armor>
 					<ArmorRating_Blunt>0</ArmorRating_Blunt>
@@ -153,7 +153,7 @@
 				<hitbox>
 					<fallthrough>false</fallthrough>
 					<cells>
-						<li>(2, 2)</li>
+						<li>(1, 2)</li>
 					</cells>
 				</hitbox>
 				<categories>
@@ -163,11 +163,11 @@
 			<li>
 				<key>LeftHorizontalStabilizer</key>
 				<label>Left Horizontal Stabilizer</label>
-				<health>25</health>
+				<health>19</health>
 				<depth>External</depth>
 				<hitbox>
 					<cells>
-						<li>(2, -3)</li>
+						<li>(-1, -2)</li>
 					</cells>
 				</hitbox>
 				<categories>
@@ -177,11 +177,11 @@
 			<li>
 				<key>RightHorizontalStabilizer</key>
 				<label>Right Horizontal Stabilizer</label>
-				<health>25</health>
+				<health>19</health>
 				<depth>External</depth>
 				<hitbox>
 					<cells>
-						<li>(0, -3)</li>
+						<li>(1, -2)</li>
 					</cells>
 				</hitbox>
 				<categories>
@@ -191,11 +191,11 @@
 			<li>
 				<key>FuelIntake</key>
 				<label>Fuel Intake</label>
-				<health>50</health>
+				<health>39</health>
 				<depth>Internal</depth>
 				<hitbox>
 					<cells>
-						<li>(1, 1)</li>
+						<li>(0, 1)</li>
 					</cells>
 				</hitbox>
 				<categories>
@@ -206,11 +206,11 @@
 			<li>
 				<key>Rudder</key>
 				<label>Rudder</label>
-				<health>50</health>
+				<health>39</health>
 				<depth>External</depth>
 				<hitbox>
 					<cells>
-						<li>(1, -3)</li>
+						<li>(0, -2)</li>
 					</cells>
 				</hitbox>
 				<categories>
@@ -220,29 +220,23 @@
 			<li>
 				<key>Fuselage</key>
 				<label>Fuselage</label>
-				<health>350</health>
+				<health>272</health>
 				<depth>External</depth>
 				<hitbox>
 					<cells>
-						<li>(1, 3)</li>
-						<li>(1, 2)</li>
-						<li>(1, 1)</li>
-						<li>(1, 0)</li>
-						<li>(1, -1)</li>
-						<li>(1, -2)</li>
-						<li>(2, 3)</li>
-						<li>(2, 2)</li>
-						<li>(2, 1)</li>
-						<li>(2, 0)</li>
-						<li>(2, -1)</li>
-						<li>(2, -2)</li>
+						<li>(0, 3)</li>
+						<li>(0, 2)</li>
+						<li>(0, 1)</li>
+						<li>(0, 0)</li>
+						<li>(0, -1)</li>
+						<li>(0, -2)</li>
 					</cells>
 				</hitbox>
 			</li>
 			<li>
 				<key>Chemtank</key>
 				<label>Chemtank</label>
-				<health>75</health>
+				<health>58</health>
 				<depth>Internal</depth>
 				<reactors>
 					<li Class="Vehicles.Reactor_FuelLeak"/>
@@ -256,14 +250,14 @@
 				</reactors>
 				<hitbox>
 					<cells>
-						<li>(1, 1)</li>
+						<li>(0, -2)</li>
 					</cells>
 				</hitbox>
 			</li>
 			<li>
 				<key>LeftWing</key>
 				<label>Left Wing</label>
-				<health>150</health>
+				<health>116</health>
 				<depth>External</depth>
 				<hitbox>
 					<cells>
@@ -278,7 +272,7 @@
 			<li>
 				<key>RightWing</key>
 				<label>Right Wing</label>
-				<health>150</health>
+				<health>116</health>
 				<depth>External</depth>
 				<hitbox>
 					<cells>
@@ -293,7 +287,7 @@
 			<li>
 				<key>Dashboard</key>
 				<label>Dashboard</label>
-				<health>30</health>
+				<health>27</health>
 				<depth>Internal</depth>
 				<hitWeight>2</hitWeight>
 			</li>

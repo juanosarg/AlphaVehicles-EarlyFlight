@@ -21,18 +21,18 @@
 		<techLevel>Industrial</techLevel>
 		<vehicleType>Air</vehicleType>
 		<statBases>
-			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
-			<ArmorRating_Heat>0.5</ArmorRating_Heat>
+			<ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.45</ArmorRating_Heat>
 			<Flammability>1</Flammability>
-			<MarketValue>1750</MarketValue>
+			<MarketValue>1650</MarketValue>
 		</statBases>
 		<vehicleStats>
-			<Mass>185</Mass>
-			<MoveSpeed>1</MoveSpeed>
-			<CargoCapacity>180</CargoCapacity>
+			<Mass>165</Mass>
+			<MoveSpeed>1.2</MoveSpeed>
+			<CargoCapacity>140</CargoCapacity>
 			<RepairRate>0.5</RepairRate>
-			<FlightSpeed>17</FlightSpeed>
+			<FlightSpeed>16</FlightSpeed>
 		</vehicleStats>
 		<soundSustainersOnEvent>
 			<li>
@@ -57,7 +57,7 @@
 			</li>
 		</soundSustainersOnEvent>
 		<race>
-			<baseBodySize>4</baseBodySize>
+			<baseBodySize>3.8</baseBodySize>
 		</race>
 		<properties>
 			<defaultImpassable>
@@ -106,7 +106,7 @@
 			<li>
 				<key>Engine</key>
 				<label>Engine</label>
-				<health>50</health>
+				<health>25</health>
 				<priorityStatEfficiency>true</priorityStatEfficiency>
 				<depth>External</depth>
 				<reactors>
@@ -131,7 +131,7 @@
 			<li>
 				<key>LeftLandingWheel</key>
 				<label>Left Landing Wheel</label>
-				<health>30</health>
+				<health>20</health>
 				<depth>External</depth>
 				<armor>
 					<ArmorRating_Blunt>0</ArmorRating_Blunt>
@@ -153,7 +153,7 @@
 			<li>
 				<key>RightLandingWheel</key>
 				<label>Right Landing Wheel</label>
-				<health>30</health>
+				<health>20</health>
 				<depth>External</depth>
 				<armor>
 					<ArmorRating_Blunt>0</ArmorRating_Blunt>
@@ -203,7 +203,7 @@
 			<li>
 				<key>FuelIntake</key>
 				<label>Fuel Intake</label>
-				<health>50</health>
+				<health>40</health>
 				<depth>Internal</depth>
 				<hitbox>
 					<cells>
@@ -218,7 +218,7 @@
 			<li>
 				<key>Rudder</key>
 				<label>Rudder</label>
-				<health>50</health>
+				<health>40</health>
 				<depth>External</depth>
 				<hitbox>
 					<cells>
@@ -233,7 +233,7 @@
 			<li>
 				<key>Fuselage</key>
 				<label>Fuselage</label>
-				<health>350</health>
+				<health>100</health>
 				<depth>External</depth>
 				<hitbox>
 					<cells>

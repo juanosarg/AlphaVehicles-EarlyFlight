@@ -30,7 +30,7 @@
 		<vehicleStats>
 			<Mass>85</Mass>
 			<MoveSpeed>2</MoveSpeed>
-			<CargoCapacity>150</CargoCapacity>
+			<CargoCapacity>130</CargoCapacity>
 			<RepairRate>0.5</RepairRate>
 			<FlightSpeed>11</FlightSpeed>
 		</vehicleStats>

@@ -227,7 +227,7 @@
 			<li>
 				<key>Fuselage</key>
 				<label>Fuselage</label>
-				<health>350</health>
+				<health>150</health>
 				<depth>External</depth>
 				<hitbox>
 					<cells>

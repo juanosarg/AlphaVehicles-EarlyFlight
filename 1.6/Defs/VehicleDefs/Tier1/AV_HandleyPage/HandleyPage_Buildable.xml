@@ -12,7 +12,7 @@
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>3000</MaxHitPoints>
-			<WorkToBuild>8500</WorkToBuild>
+			<WorkToBuild>40000</WorkToBuild>
 			<Flammability>0.05</Flammability>
 		</statBases>
 		<size>(10,20)</size>
@@ -22,7 +22,7 @@
 		<costList>
 			<AV_EarlyPlaneEngine>2</AV_EarlyPlaneEngine>
 			<AV_EarlyPlaneLandingGear>4</AV_EarlyPlaneLandingGear>
-			<AV_EarlyPlaneFuselage>10</AV_EarlyPlaneFuselage>
+			<AV_EarlyPlaneFuselage>20</AV_EarlyPlaneFuselage>
 		</costList>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<thingToSpawn>AV_HandleyPage</thingToSpawn>

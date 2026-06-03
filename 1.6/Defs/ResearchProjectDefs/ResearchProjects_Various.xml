@@ -9,5 +9,35 @@
 		<researchViewX>0.00</researchViewX>
 		<researchViewY>2</researchViewY>
 		<tab>AV_AlphaVehicles</tab>
+		<generalRules>
+			<rulesStrings>
+				<li>subject->early flight</li>
+				<li>subject_story->built and tested fragile powered gliders in uncontrolled conditions</li>
+				<li>subject_story->studied lift, drag, and control instability in first-generation aircraft</li>
+				<li>subject_story->pioneered wing-warping and primitive control surface designs</li>
+				<li>subject_gerund->assembling experimental aircraft prototypes</li>
+			</rulesStrings>
+		</generalRules>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>AV_BiplaneTheory</defName>
+		<label>biplane theory</label>
+		<description>Study structural aerodynamics and load distribution principles that make rigid, multi-wing aircraft possible.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>2</researchViewY>
+		<tab>AV_AlphaVehicles</tab>
+		<prerequisites>
+			<li>AV_EarlyFlight</li>
+			<li>Smithing</li>
+		</prerequisites>
+		<rulesStrings>
+			<li>subject->biplane theory</li>
+			<li>subject_story->developed reinforced wing bracing systems for early military aircraft</li>
+			<li>subject_story->studied aerodynamic instability in lightweight monoplanes</li>
+			<li>subject_story->contributed to early airframe stress analysis methods</li>
+			<li>subject_gerund->designing biplane wing structures</li>
+		</rulesStrings>
 	</ResearchProjectDef>
 </Defs>

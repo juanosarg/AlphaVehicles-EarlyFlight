@@ -89,7 +89,7 @@
 			<li>
 				<key>Engine</key>
 				<label>Engine</label>
-				<health>50</health>
+				<health>35</health>
 				<priorityStatEfficiency>true</priorityStatEfficiency>
 				<depth>External</depth>
 				<reactors>
@@ -104,17 +104,17 @@
 				<hitbox>
 					<cells>
 						<li>(0, -1)</li>
-						
 					</cells>
 				</hitbox>
 				<categories>
 					<li>MoveSpeed</li>
 				</categories>
 			</li>
+
 			<li>
 				<key>LeftLandingWheel</key>
 				<label>Left Landing Wheel</label>
-				<health>30</health>
+				<health>21</health>
 				<depth>External</depth>
 				<armor>
 					<ArmorRating_Blunt>0</ArmorRating_Blunt>
@@ -133,10 +133,11 @@
 					<li>MoveSpeed</li>
 				</categories>
 			</li>
+
 			<li>
 				<key>RightLandingWheel</key>
 				<label>Right Landing Wheel</label>
-				<health>30</health>
+				<health>21</health>
 				<depth>External</depth>
 				<armor>
 					<ArmorRating_Blunt>0</ArmorRating_Blunt>
@@ -155,10 +156,11 @@
 					<li>MoveSpeed</li>
 				</categories>
 			</li>
+
 			<li>
 				<key>LeftHorizontalStabilizer</key>
 				<label>Left Horizontal Stabilizer</label>
-				<health>25</health>
+				<health>18</health>
 				<depth>External</depth>
 				<hitbox>
 					<cells>
@@ -169,10 +171,11 @@
 					<li>FlightControl</li>
 				</categories>
 			</li>
+
 			<li>
 				<key>RightHorizontalStabilizer</key>
 				<label>Right Horizontal Stabilizer</label>
-				<health>25</health>
+				<health>18</health>
 				<depth>External</depth>
 				<hitbox>
 					<cells>
@@ -183,10 +186,11 @@
 					<li>FlightControl</li>
 				</categories>
 			</li>
+
 			<li>
 				<key>FuelIntake</key>
 				<label>Fuel Intake</label>
-				<health>50</health>
+				<health>35</health>
 				<depth>Internal</depth>
 				<hitbox>
 					<cells>
@@ -198,10 +202,11 @@
 					<li>FlightSpeed</li>
 				</categories>
 			</li>
+
 			<li>
 				<key>Rudder</key>
 				<label>Rudder</label>
-				<health>50</health>
+				<health>35</health>
 				<depth>External</depth>
 				<hitbox>
 					<cells>
@@ -212,26 +217,26 @@
 					<li>FlightControl</li>
 				</categories>
 			</li>
+
 			<li>
 				<key>Fuselage</key>
 				<label>Fuselage</label>
-				<health>200</health>
+				<health>140</health>
 				<depth>External</depth>
 				<hitbox>
 					<cells>
-						
 						<li>(0, 2)</li>
 						<li>(0, 1)</li>
 						<li>(0, 0)</li>
 						<li>(0, -1)</li>
-						
 					</cells>
 				</hitbox>
 			</li>
+
 			<li>
 				<key>Chemtank</key>
 				<label>Chemtank</label>
-				<health>50</health>
+				<health>35</health>
 				<depth>Internal</depth>
 				<reactors>
 					<li Class="Vehicles.Reactor_FuelLeak"/>
@@ -249,10 +254,11 @@
 					</cells>
 				</hitbox>
 			</li>
+
 			<li>
 				<key>LeftWing</key>
 				<label>Left Wing</label>
-				<health>100</health>
+				<health>70</health>
 				<depth>External</depth>
 				<hitbox>
 					<cells>
@@ -264,10 +270,11 @@
 					<li>FlightControl</li>
 				</categories>
 			</li>
+
 			<li>
 				<key>RightWing</key>
 				<label>Right Wing</label>
-				<health>100</health>
+				<health>70</health>
 				<depth>External</depth>
 				<hitbox>
 					<cells>
@@ -279,10 +286,11 @@
 					<li>FlightControl</li>
 				</categories>
 			</li>
+
 			<li>
 				<key>Dashboard</key>
 				<label>Dashboard</label>
-				<health>30</health>
+				<health>18</health>
 				<depth>Internal</depth>
 				<hitWeight>2</hitWeight>
 			</li>

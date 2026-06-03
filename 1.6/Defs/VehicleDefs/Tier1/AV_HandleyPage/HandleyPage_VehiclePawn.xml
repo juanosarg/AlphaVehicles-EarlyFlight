@@ -28,7 +28,7 @@
 			<MarketValue>7500</MarketValue>
 		</statBases>
 		<vehicleStats>
-			<Mass>850</Mass>
+			<Mass>1750</Mass>
 			<MoveSpeed>0.5</MoveSpeed>
 			<CargoCapacity>1500</CargoCapacity>
 			<RepairRate>0.25</RepairRate>

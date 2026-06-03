@@ -17,7 +17,7 @@
 		</statBases>
 		<size>(3,7)</size>
 		<researchPrerequisites>
-			<li>AV_EarlyFlight</li>
+			<li>AV_BiplaneTheory</li>
 		</researchPrerequisites>
 		<costList>
 			<AV_EarlyPlaneEngine>1</AV_EarlyPlaneEngine>
