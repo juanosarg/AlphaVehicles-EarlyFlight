@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Vehicles Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[@Name = "AV_EarlyPlanePartsBase"]/recipeMaker/recipeUsers</xpath>
+					<value>
+						<li>VVE_GarageBench</li>
+					</value>
+				</li>
+				
+				
+				
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+
